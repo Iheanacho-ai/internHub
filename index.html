@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,40 +8,500 @@
     <title>Dev</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-        <div class="container">
-            <div class="navigation">
-                    <span class="name"><b>Yourname</b></span>
-                    <ul class="nav-list">
-                            <li class="active">Home</li>
-                            <li>About</li>
-                            <li>Resume</li>
-                            <li>Services</li>
-                            <li>Skills</li>
-                            <li>Projects</li>
-                            <li>My blog</li>
-                            <li>Contact-Us</li>
-                        </ul>   
-    
-            </div>
-            <div class="slider">
-                <img class="slide1" src="http://pluspng.com/img-png/png-men-men-png-495.png" alt="">
-                <div class="slide-content">
-                    <h3 class="slide-content-hello">Hello!</h3>
-                    <h1 class="slide-content-about"><span class="text-white">I'm</span>OPARA TOBECHUKWU</h1>
-                    <div class="btn-container">
-                       <button class="btn-hire-me">hire me</button>
-                        <button class="btn-my-works">my works</button>
 
+<body>
+    <div class="preloader" id="p_loader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+                    <div class="container">
+                      <a class="navbar-brand" href="index.html">Super Star dev</a>
+                      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="oi oi-menu"></span> Menu
+                      </button>
+            
+                      <div class="collapse navbar-collapse" id="ftco-nav">
+                        <ul class="navbar-nav nav ml-auto">
+                          <li class="nav-item"><a href="#home-section" class="nav-link active"><span>Home</span></a></li>
+                          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+                          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+                          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+                  
+        <!-- Code for the slider -->
+        <div class="slider" style="width: 100%; height: 800px">
+
+            <div class="content" id="home">
+                <h3 class="slide-content-hello">Hello!</h3>
+                <h1 class="slide-content-about">
+
+                    <span class="text-white">I'm</span>OPARA</h1>
+                <h1 class="slide-content-about">TOBECHUKWU</h1>
+
+                <div class="btn-container">
+                    <button class="btn-hire-me"> HIRE ME</button>
+                    <button class="btn-my-works">my works</button>
+
+                </div>
+
+
+            </div>
+
+            <div class="slider_image">
+                <img class="slide1" src="https://pluspng.com/img-png/png-men-men-png-495.png" alt="">
+
+            </div>
+
+        </div>
+
+
+        <!-- start about container -->
+        <div class="about_container" id="about_us">
+
+            <div class="img2">
+                <img src="https://pluspng.com/img-png/png-men-men-png-495.png" alt="">
+            </div>
+
+            <div class="about">
+                <h2 id="abouthead">
+                    <b>About Me</b>
+                </h2>
+                <br>
+                <br>
+                <p></p>
+                <h4 class="quote">A smalll river named Duden flows by their place and supplies it
+                    <br> with the necessary regalia</h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="con">
+                    <h4>
+                        <b style="padding-right: 150px;">Name:</b> Godwill Onyewuchi </h4>
+                    <h4>
+                        <b style="padding-right: 105px;">Date of Birth:</b> January 01, 1987 </h4>
+                    <h4>
+                        <b style="padding-right: 135px;">Address:</b> Futo Owerri, Imo Nigeria </h4>
+                    <h4>
+                        <b style="padding-right: 131px;">Zip Code:</b> 1234 </h4>
+                    <h4>
+                        <b style="padding-right: 158px;">Email:</b> godwillonyewuchii@gmail.com </h4>
+                    <h4>
+                        <b style="padding-right: 150px;">Phone:</b> +234-813-203-0908 </h4>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h4 style="color: white; font-size: 30px;text-align:left">
+                    <b style="color: orange;">120</b> Project complete</h4>
+            </div>
+
+        </div>
+
+        <!-- end about container -->
+
+
+        <!-- start resume container -->
+        <div class="resume" id="resume">
+            <h1 class="resume1">
+                <strong>Resume</strong>
+            </h1>
+
+            <p class="about">A small river named Dudon flows y their place and supplies it with the necessary
+                regelialia. It is paradisematic
+                <br> country, in which roasted parts of sentences fly into your mouth</p>
+            <div class="resume_row1">
+
+                <div class="container1">
+                    <span class="date1">
+                        <strong>2014-2015</strong>
+                        <br>
+                    </span>
+                    <span class="degree">Bachelor's Degree of C.A</span>
+                    <p class="text1">CAMBRIDGE UNIVERSITY
+                        <br>
+                        <br> A small river named Dudon flows y their place and supplies
+                        <br> it with the necessary regelialia. It is paradisematic country,
+                        <br> in which roasted parts of sentences fly into your mouth</p>
+                </div>
+
+
+                <div class="container2">
+                    <span class="date1">
+                        <strong>2014-2015</strong>
+                        <br>
+                    </span>
+                    <span class="degree">Wordpress Developer</span>
+                    <p class="text1">CAMBRIDGE UNIVERSITY
+                        <br>
+                        <br> A small river named Dudon flows y their place and supplies
+                        <br> it with the necessary regelialia. It is paradisematic country,
+                        <br> in which roasted parts of sentences fly into your mouth</p>
+                </div>
+
+            </div>
+            <div class="cv_btn">
+                <button class="cv">DOWNLOAD CV</button>
+            </div>
+
+        </div>
+
+        <!-- end rsume container -->
+
+    </div>
+    <!-- start services container -->
+
+    <div id="Services">
+      <h1 id="headtext">Services</h1>
+      <h5 id="smalltext">Far Far away, behind the word mountains, far from the countries Vokalia and Consonatia</h5>
+      <div id="main">
+        <div class="bu">
+          <img class="icon" src="icon1.png">
+          <h4 class="textn">WEB DESIGN</h4>
+        </div>
+        <div class="bu">
+          <img class="icon" src="icon2.png">
+          <h4 class="textn">PHOTOGRAPHY</h4>
+        </div>
+        <div class="bu">
+          <img class="iconid" src="icon3.png">
+          <h4 class="textn">WEB DEVELOPER</h4>
+        </div>
+        <br>
+        <div class="bd">
+          <img class="icon" src="icon1.png">
+          <h4 class="textn">APP DEVELOPER</h4>
+        </div>
+        <div class="bd">
+          <img class="icon" src="icon2.png">
+          <h4 class="textn">BRANDING</h4>
+        </div>
+        <div class="bd">
+          <img class="iconid" src="icon3.png">
+          <h4 class="textn">PRODUCT STRATEGY</h4>
+        </div>
+    
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="myskills" id="skills">
+        <h1 class="skills">My Skills</h1>
+        <p class="shit">Far far away, behind the word mountains, far from the countries Nigeria and Dubai</p>
+        <div class="container10">
+            <p class="photo">Photoshop 90%</p>
+            <progress class="photoshop1" min="0" max="100" value="90"></progress>
+        </div>
+        <div class="container20">
+            <p class="photo">jQuery 85%</p>
+            <progress class="jquery" min="0" max="100" value="85"></progress>
+        </div>
+        <div class="container30">
+            <p class="photo">Html5 95%</p>
+            <progress class="html" min="0" max="100" value="95"></progress>
+        </div>
+        <div class="container40">
+            <p class="photo">CSS3 90%</p>
+            <progress class="css" min="0" max="100" value="90"></progress>
+        </div>
+        <div class="container50">
+            <p class="photo">Wordpress 70%</p>
+            <progress class="jquery" min="0" max="100" value="70"></progress>
+        </div>
+        <div class="container60">
+            <p class="photo">SEO 80%</p>
+            <progress class="jquery" min="0" max="100" value="80"></progress>
+        </div>
+    </div>
+    <h1></h1>
+
+
+    <div class="custard" id="projects" style=" width: 100%; height: 1000px; margin-left: 20px; margin-top: 450px">
+
+
+        
+        
+
+    
+        <h1 class="Projects">Our Projects</h1>
+        <p class="intro">Far far away, behind the word mountins, far from te countries Nigeria and dubai</p>
+        <div class="firstImages" style="width: 95%; height: 300px">
+            <img src="./images/20191127_102858.jpg" alt="workplease" style="width: 40%;height: 300px;">
+            <img src="./images/20191127_102924.jpg" alt="workplease2"
+                style="width: 55%; height: 300px;margin-left: 10px;">
+
+
+        </div>
+        <div class="secondImages" style="width: 95%; height:300px">
+            <img src="./images/20191127_103012.jpg" alt="workplease3" style="width: 55%; height: 300px">
+
+            <img src="./images/20191127_102911.jpg" alt="workplease4"
+                style="width: 40%; height: 300px; margin-left: 10px;">
+
+
+
+        </div>
+        <div class="thirdImages" style="width: 95%; height: 300px">
+            <img src="./images/20191127_102939.jpg" alt="workplease5" style="width: 55%; height: 300px">
+            <img src="./images/20191127_103012.jpg" alt="workplease6"
+                style="width: 40%; height: 300px; margin-left: 10px">
+
+
+        </div>
+    </div>
+
+
+
+    <!-- this is the start of the blog page. NB: it doesn't follow after the 
+    Resume page-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="blog" id="blog">
+     
+            <section class="ftco-section" id="blog-section">
+                    <div class="container">
+                      <div class="row justify-content-center mb-5 pb-5">
+                        <div class="col-md-7 heading-section text-center ">
+                          <h1 class="big big-2">Blog</h1>
+                          <h2 class="mb-4">Our Blog</h2>
+                          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        </div>
+                      </div>
+                      <div class="row d-flex">
+                        <div class="col-md-4 d-flex ">
+                            <div class="blog-entry justify-content-end">
+                            <a href="single.html" class="block-20" style="background-image: url('https://hungry-cray-e01832.netlify.com/images/image_1.jpg');">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center mb-3 meta">
+                                  <p class="mb-0">
+                                      <span class="mr-2">June 21, 2019</span>
+                                      <a href="#" class="mr-2">Admin</a>
+                                      <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                  </p>
+                              </div>
+                              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex ">
+                            <div class="blog-entry justify-content-end">
+                            <a href="single.html" class="block-20" style="background-image: url('https://hungry-cray-e01832.netlify.com/images/image_2.jpg');">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center mb-3 meta">
+                                  <p class="mb-0">
+                                      <span class="mr-2">June 21, 2019</span>
+                                      <a href="#" class="mr-2">Admin</a>
+                                      <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                  </p>
+                              </div>
+                              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex ">
+                            <div class="blog-entry">
+                            <a href="single.html" class="block-20" style="background-image: url('https://hungry-cray-e01832.netlify.com/images/image_3.jpg');">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center mb-3 meta">
+                                  <p class="mb-0">
+                                      <span class="mr-2">June 21, 2019</span>
+                                      <a href="#" class="mr-2">Admin</a>
+                                      <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                  </p>
+                              </div>
+                              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+        <section style="margin-top:150px;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+                <div class="container">
+                        <div class="row d-md-flex align-items-center">
+                  <div class="col-md d-flex justify-content-center counter-wrap">
+                    <div class="block-18">
+                      <div class="text">
+                        <strong class="number" data-number="100">100</strong>
+                        <span>Awards</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex justify-content-center counter-wrap ">
+                    <div class="block-18">
+                      <div class="text">
+                        <strong class="number" data-number="1200">1,200</strong>
+                        <span>Complete Projects</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex justify-content-center counter-wrap ">
+                    <div class="block-18">
+                      <div class="text">
+                        <strong class="number" data-number="1200">1,200</strong>
+                        <span>Happy Customers</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex justify-content-center counter-wrap ">
+                    <div class="block-18">
+                      <div class="text">
+                        <strong class="number" data-number="500">500</strong>
+                        <span>Cups of coffee</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(https://hungry-cray-e01832.netlify.com/images/bg_1.jpg)">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7  text-center ">
+                            <h2>I'm <span>Available</span> for freelancing</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+                        </div>
                     </div>
                 </div>
-            </div>        
+            </section>
+    </section>
+
+    <div class="contact-me">
+        <h4 style="font-weight: bolder;">
+            <span id="shadow-contact-me">Contact</span> Me</h4>
+        <p style="font-size: 15px;">Far far away,behind the word mountains,far from the countries Vokalia and</p>
+        <p style="font-size: 15px;">Consonantia.</p>
+        <div class="icon1">
+            <i class="fa fa-align-center" style="color: gold;border-radius: 50%;background-color: rgb(41, 40, 40);padding:20px 20px;"></i>
+            <h5 style="font-size: 12px;">ADDRESS</h5>
+            <p style="font-size: 9px;font-weight:100; ">198 West 27th Street,Suite</p>
+            <p style="font-size: 9px;">721 New York NY 10016</p>
+        </div>
+        <div class="icon2">
+            <i class="fa fa-phone" style="color: gold;border-radius: 50%;background-color: rgb(41, 40, 40);padding:20px 20px;"></i>
+            <h5 style="font-size: 12px;">CONTACT NUMBER</h5>
+            <p style="font-size: 9px;font-weight:100; ">+1235 2355 98</p>
+        </div>
+        <div class="icon3">
+            <i class="fa fa-paper-plane" style="color: gold;border-radius: 50%;background-color: rgb(41, 40, 40);padding:20px 20px;"></i>
+            <h5 style="font-size: 12px;">EMAIL ADDRESS</h5>
+            <p style="font-size: 9px;font-weight:100; ">info@yoursite.com</p>
+        </div>
+        <div class="icon4">
+            <i class="fa fa-internet-explorer" style="color: gold;border-radius: 50%;background-color: rgb(41, 40, 40);padding:20px 20px;"></i>
+            <h5 style="font-size: 12px;">WEBSITE</h5>
+            <p style="font-size: 9px;font-weight:100; ">yoursite.com</p>
+        </div>
+    </div>
+    <footer class="ftco-footer ftco-section">
+            <div class="container">
+              <div class="row mb-5">
+                <div class="col-md">
+                  <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">About</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                      <li class=""><a href="#"><span class="icon-twitter"></span></a></li>
+                      <li class=""><a href="#"><span class="icon-facebook"></span></a></li>
+                      <li class=""><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">Links</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md">
+                   <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Services</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="ftco-footer-widget mb-4">
+                      <h2 class="ftco-heading-2">Have a Questions?</h2>
+                      <div class="block-23 mb-3">
+                        <ul>
+                          <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Owerri,Nigeria</span></li>
+                          <li><a href="#"><span class="icon icon-phone"></span><span class="text">+234 392 3929 210</span></a></li>
+                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center">
+      
+        Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This webpage is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank">InternHub Super star Devs</a>
+                </div>
+              </div>
             </div>
-            
-<div class="scroll_button">
-    Up
-</div>
+          </footer>
+
+
+    <script src="./scripts/index.js"></script>
+    <script src="./vanillajs-scrollspy-master/dist/vanillajs-scrollspy.min.js"></script>
+    <script >
+        const navbar = document.querySelector('#navbar');
+    const scrollspy = new VanillaScrollspy(navbar, 1000, 'easeInOutQuint');
+scrollspy.init();
+    </script>
     <!-- project file -->
 </body>
+
 </html>
